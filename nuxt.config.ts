@@ -3,5 +3,8 @@ export default defineNuxtConfig({
         public: {
             foo: "bar"
         }
+    },
+    future: {
+        compatibilityVersion: 4
     }
 });
